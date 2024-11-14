@@ -1,13 +1,90 @@
-<!-- Container principal -->
-<div class="container text-center mt-5">
-  <!-- Título -->
-  <h1 class="display-4">Bem-vindo ao Meu Portfólio</h1>
-  <!-- Botão -->
-  <button
-    type="button"
-    class="btn btn-primary mt-3"
-    (click)="navegarParaOutraPagina()"
-  >
-    Clique Aqui
-  </button>
+<!-- Header -->
+<div class="container mt-5">
+  <div class="row align-items-center">
+    <!-- Texto de Apresentação -->
+    <div class="col-md-8 text-left">
+      <h1 class="display-4">Bem-vindo ao Meu Portfólio</h1>
+      <p class="lead">
+        Sou um desenvolvedor apaixonado por criar soluções incríveis e resolver
+        problemas com tecnologia.
+      </p>
+
+      <!-- Botões de navegação -->
+      <div class="mt-3">
+        <a href="https://www.linkedin.com/in/seu-linkedin" target="_blank">
+          <button type="button" class="btn btn-primary mt-3 mr-3">
+            LinkedIn
+          </button>
+        </a>
+        <a href="https://github.com/seu-github" target="_blank">
+          <button type="button" class="btn btn-dark mt-3">GitHub</button>
+        </a>
+      </div>
+    </div>
+    <!-- Imagem Online -->
+    <div class="col-md-4 text-center">
+      <img
+        src="https://picsum.photos/400"
+        alt="Minha Foto"
+        class="rounded-circle img-fluid"
+        style="max-width: 400px"
+      />
+    </div>
+  </div>
 </div>
+
+<!-- Seção de Tecnologias -->
+<div class="container mt-5">
+  <h2 class="text-center mb-4">Tecnologias que Eu Uso</h2>
+  <div class="row text-center">
+    <!-- Icone Angular -->
+    <div class="col-md-3">
+      <img
+        src="https://img.icons8.com/color/96/000000/angularjs.png"
+        alt="Angular"
+        class="rounded-circle img-fluid"
+        style="max-width: 100px"
+      />
+      <p>Angular</p>
+    </div>
+    <!-- Icone Java -->
+    <div class="col-md-3">
+      <img
+        src="https://img.icons8.com/color/96/000000/java-coffee-cup-logo.png"
+        alt="Java"
+        class="rounded-circle img-fluid"
+        style="max-width: 100px"
+      />
+      <p>Java</p>
+    </div>
+    <!-- Icone Spring -->
+    <div class="col-md-3">
+      <img
+        src="https://img.icons8.com/color/96/000000/spring-logo.png"
+        alt="Spring"
+        class="rounded-circle img-fluid"
+        style="max-width: 100px"
+      />
+      <p>Spring</p>
+    </div>
+    <!-- Icone PostgreSQL -->
+    <div class="col-md-3">
+      <img
+        src="https://img.icons8.com/color/96/000000/postgreesql.png"
+        alt="PostgreSQL"
+        class="rounded-circle img-fluid"
+        style="max-width: 100px"
+      />
+      <p>PostgreSQL</p>
+    </div>
+  </div>
+</div>
+
+<!-- Botão para navegação -->
+<button
+  type="button"
+  class="btn btn-primary mt-3"
+  (click)="navegarParaOutraPagina()"
+>
+  Clique Aqui
+</button>
